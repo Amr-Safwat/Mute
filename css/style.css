@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  /* height: 2000px; */
+}
+.all{
+  width: 70%;
+  height: 50%;
+  position: relative;
+  margin: 100px auto;
+}
+video {
+  max-width: 100%;
+  max-height: 100%;
+}
+.icons {
+  position: absolute;
+  bottom: 25px;
+  right: 20px;
+  z-index: 1;
+}
+i:nth-child(2) {
+  display: none;
+}
+.hidden {
+  display: inline;
+}
